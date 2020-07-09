@@ -1,11 +1,10 @@
-cli-plugin-template
+cli-plugin-edition
 ===================
 
-vtex plugin template
+vtex plugin edition
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/cli-plugin-template.svg)](https://npmjs.org/package/cli-plugin-template)
-[![Downloads/week](https://img.shields.io/npm/dw/cli-plugin-template.svg)](https://npmjs.org/package/cli-plugin-template)
+![npm](https://img.shields.io/npm/v/@vtex/cli-plugin-edition)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -14,11 +13,11 @@ vtex plugin template
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @vtex/cli-plugin-template
+$ npm install -g @vtex/cli-plugin-edition
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@vtex/cli-plugin-template/0.0.0 linux-x64 node-v14.0.0
+@vtex/cli-plugin-edition/0.0.0 linux-x64 node-v14.0.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -49,5 +48,5 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-template/blob/v0.0.0/build/commands/hello.ts)_
+_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.0.0/build/commands/hello.ts)_
 <!-- commandsstop -->
