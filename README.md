@@ -26,27 +26,44 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example hello [FILE]`](#oclif-example-hello-file)
+* [`oclif-example edition:get`](#oclif-example-editionget)
+* [`oclif-example edition:set EDITION`](#oclif-example-editionset-edition)
 
-## `oclif-example hello [FILE]`
+## `oclif-example edition:get`
 
-describe the command here
+Get edition of the current account
 
 ```
 USAGE
-  $ oclif-example hello [FILE]
+  $ oclif-example edition:get
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-  -v, --verbose    Show debug level logs
-  --trace          Ensure all requests to VTEX IO are traced
+  -h, --help     show CLI help
+  -v, --verbose  Show debug level logs
+  --trace        Ensure all requests to VTEX IO are traced
 
 EXAMPLE
-  $ oclif-example hello
-  hello world from ./src/hello.ts!
+  vtex edition get
 ```
 
-_See code: [build/commands/hello.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.0.0/build/commands/hello.ts)_
+_See code: [build/commands/edition/get.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.0.0/build/commands/edition/get.ts)_
+
+## `oclif-example edition:set EDITION`
+
+Set edition of the current account
+
+```
+USAGE
+  $ oclif-example edition:set EDITION
+
+OPTIONS
+  -h, --help     show CLI help
+  -v, --verbose  Show debug level logs
+  --trace        Ensure all requests to VTEX IO are traced
+
+EXAMPLE
+  vtex edition set editionName
+```
+
+_See code: [build/commands/edition/set.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.0.0/build/commands/edition/set.ts)_
 <!-- commandsstop -->
