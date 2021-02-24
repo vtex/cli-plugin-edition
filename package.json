@@ -25,7 +25,7 @@
     "ts-jest": "^25.2.1",
     "ts-node": "^8",
     "typescript": "^3.8.2",
-    "vtex": "^2.105.1-beta.8"
+    "vtex": "^2.110.0-beta.0"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -49,7 +49,7 @@
     ],
     "topics": {
       "edition": {
-        "description": "Edition commands. Run 'vtex edition' to see all subcommands"
+        "description": "Prints or updates the Edition App of the current account. Run 'vtex edition' to see all 2 subcommands."
       }
     }
   },
