@@ -1,9 +1,11 @@
-import { getEdition, CustomCommand } from 'vtex'
+import { getEdition, CustomCommand, ColorifyConstants } from 'vtex'
 
 export default class EditionGet extends CustomCommand {
-  static description = 'Get edition of the current account'
+  static description = `Displays the ${ColorifyConstants.ID(
+    'Edition App'
+  )} version installed on the current ${ColorifyConstants.ID('account')}.`
 
-  static examples = ['vtex edition get']
+  static examples = [`${ColorifyConstants.COMMAND_OR_VTEX_REF('vtex edition get')}`]
 
   static flags = {
     ...CustomCommand.globalFlags,

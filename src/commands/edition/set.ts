@@ -1,15 +1,23 @@
-import { CustomCommand, setEdition } from 'vtex'
+import { CustomCommand, setEdition, ColorifyConstants } from 'vtex'
 
 export default class EditionSet extends CustomCommand {
-  static description = 'Set edition of the current account'
+  static description = `Sets the ${ColorifyConstants.ID('Edition App')} version for the current ${ColorifyConstants.ID(
+    'account'
+  )}.`
 
-  static examples = ['vtex edition set editionName']
+  static examples = [`${ColorifyConstants.COMMAND_OR_VTEX_REF('vtex edition set')} editionName`]
 
   static flags = {
     ...CustomCommand.globalFlags,
   }
 
-  static args = [{ name: 'edition', required: true }]
+  static args = [
+    {
+      name: 'edition',
+      required: true,
+      description: `Name and version of the ${ColorifyConstants.ID('Edition App')} to install.`,
+    },
+  ]
 
   async run() {
     const {
