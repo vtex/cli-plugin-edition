@@ -17,7 +17,7 @@ $ npm install -g @vtex/cli-plugin-edition
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@vtex/cli-plugin-edition/0.0.1 linux-x64 node-v14.0.0
+@vtex/cli-plugin-edition/0.0.1 darwin-x64 node-v15.0.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -31,7 +31,7 @@ USAGE
 
 ## `oclif-example edition:get`
 
-Get edition of the current account
+Displays the Edition App version installed on the current account.
 
 ```
 USAGE
@@ -50,11 +50,14 @@ _See code: [build/commands/edition/get.ts](https://github.com/vtex/cli-plugin-ed
 
 ## `oclif-example edition:set EDITION`
 
-Set edition of the current account
+Sets the Edition App version for the current account.
 
 ```
 USAGE
   $ oclif-example edition:set EDITION
+
+ARGUMENTS
+  EDITION  Name and version of the Edition App to install.
 
 OPTIONS
   -h, --help     show CLI help
