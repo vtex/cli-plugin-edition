@@ -7,13 +7,15 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@tiagonapoli/oclif-plugin-spaced-commands": "^0.0.6",
-    "tslib": "^1"
+    "tslib": "^1",
+    "ramda": "^0.27.1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
     "@oclif/plugin-help": "^3",
     "@types/jest": "^26.0.3",
-    "@types/node": "^14.0.14",
+    "@types/node": "^14.14.34",
+    "@types/ramda": "0.25.24",
     "eslint": "^6.8.0",
     "eslint-config-oclif": "^3.1",
     "eslint-config-vtex": "^12.3.0",
@@ -25,7 +27,8 @@
     "ts-jest": "^25.2.1",
     "ts-node": "^8",
     "typescript": "^3.8.2",
-    "vtex": "^2.110.0-beta.0"
+    "lint-staged": "^10.2.11",
+    "vtex": "^2.122.0-beta"
   },
   "engines": {
     "node": ">=8.0.0"
