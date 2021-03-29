@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1-beta] - 2021-03-29
+
 ### Changed
 
 - `postpack` to `postpublish` npm command
