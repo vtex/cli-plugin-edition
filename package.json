@@ -60,7 +60,7 @@
   "scripts": {
     "build-clean": "rm -rf build",
     "build-incremental": "tsc --incremental",
-    "build": "yarn build-clean && yarn tsc && OCLIF_COMPILATION=true yarn oclif-dev manifest --colors=256",
+    "build": "yarn build-clean && yarn tsc && OCLIF_COMPILATION=true yarn oclif-dev manifest --color=256",
     "ci:prettier-check": "prettier --check --config ./.prettierrc \"./src/**/*.{ts,tsx,js,jsx,json}\"",
     "ci:test": "yarn test --ci",
     "format-lint": "yarn format && yarn lint",
