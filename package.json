@@ -60,7 +60,7 @@
   "scripts": {
     "build-clean": "rm -rf build",
     "build-incremental": "tsc --incremental",
-    "build": "yarn build-clean && yarn tsc && yarn oclif-dev manifest && cat oclif.manifest.json",
+    "build": "cat oclif.manifest.json && yarn build-clean && yarn tsc && yarn oclif-dev manifest && cat oclif.manifest.json",
     "ci:prettier-check": "prettier --check --config ./.prettierrc \"./src/**/*.{ts,tsx,js,jsx,json}\"",
     "ci:test": "yarn test --ci",
     "format-lint": "yarn format && yarn lint",
