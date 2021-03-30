@@ -66,7 +66,6 @@
     "format-lint": "yarn format && yarn lint",
     "format": "prettier --config ./.prettierrc --write \"**/*.{ts,js,json}\"",
     "lint": "eslint ./src --cache --ext .ts --config .eslintrc",
-    "postpublish": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "docs": "rm -rf build && tsc -b && oclif-dev readme",
     "prepublishOnly": "bash ./scripts/publishLock.sh",
