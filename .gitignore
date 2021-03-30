@@ -9,5 +9,4 @@
 /tmp
 coverage
 node_modules
-oclif.manifest.json
 tsconfig.tsbuildinfo
