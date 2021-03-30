@@ -8873,10 +8873,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vtex@^3.3.4-veras:
-  version "3.3.4-veras"
-  resolved "https://registry.yarnpkg.com/vtex/-/vtex-3.3.4-veras.tgz#d6ce560bc37003a66eda5daa98914b18028f3968"
-  integrity sha512-AAqAf7h4KHoq6QcDP5ZNy9lhWXMlp/RECGian0sCvCzE5EyH7iH/C8igoR/N05YsD+OeTcsdtfO+MmN7oc0qFw==
+vtex@^3.3.4-beta:
+  version "3.3.4-beta"
+  resolved "https://registry.yarnpkg.com/vtex/-/vtex-3.3.4-beta.tgz#feea49875c91da0c7f6c5ef908797e0bad395453"
+  integrity sha512-52SSkyOx+/WSaUwimzXnDSq8ZilhMcBF1Z8E0DuqcCilna1NTwpnoe15MSuo3UoTQzkUyvUBBbP6hwdlc+21dQ==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
