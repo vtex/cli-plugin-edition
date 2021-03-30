@@ -7,8 +7,8 @@ on:
     tags-ignore:
       - '**'
 jobs:
-  prepack:
-      name: prepack
+  docs:
+      name: docs
       runs-on: ubuntu-latest
       steps: 
       - name: Checkout repo
@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Update README
-        run: yarn prepack
+        run: yarn docs
       - name: Remove color char from README
         run: curl 'https://vtex-toolbelt-test.s3.us-east-2.amazonaws.com/removeTerminalColorFromFile.sh' > tmpColorScrip.sh && bash tmpColorScrip.sh && rm tmpColorScrip.sh
       - name: Commit changes
