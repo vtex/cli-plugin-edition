@@ -17,7 +17,7 @@ $ npm install -g @vtex/cli-plugin-edition
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@vtex/cli-plugin-edition/0.1.1-beta.6 linux-x64 node-v12.21.0
+@vtex/cli-plugin-edition/0.1.1-beta.7 linux-x64 node-v12.21.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -46,7 +46,7 @@ EXAMPLE
   vtex edition get
 ```
 
-_See code: [build/commands/edition/get.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.1.1-beta.6/build/commands/edition/get.ts)_
+_See code: [build/commands/edition/get.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.1.1-beta.7/build/commands/edition/get.ts)_
 
 ## `oclif-example edition:set EDITION`
 
@@ -68,5 +68,5 @@ EXAMPLE
   vtex edition set editionName
 ```
 
-_See code: [build/commands/edition/set.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.1.1-beta.6/build/commands/edition/set.ts)_
+_See code: [build/commands/edition/set.ts](https://github.com/vtex/cli-plugin-edition/blob/v0.1.1-beta.7/build/commands/edition/set.ts)_
 <!-- commandsstop -->
