@@ -68,7 +68,7 @@
     "lint": "eslint ./src --cache --ext .ts --config .eslintrc",
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
-    "prepack": "rm -rf build && tsc -b && oclif-dev manifest --colors=256 && oclif-dev readme",
+    "prepack": "rm -rf build && tsc -b && oclif-dev manifest --color=256 && oclif-dev readme",
     "prepublishOnly": "bash ./scripts/publishLock.sh",
     "test": "jest --passWithNoTests",
     "version": "oclif-dev readme && git add README.md",
