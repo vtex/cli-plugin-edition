@@ -1,5 +1,5 @@
 - name: cli-plugin-edition
-  referenceId: PLACEHOLDER
+  referenceId: 1EO1C093
   build:
     provider: dkcicd
     pipelines:
