@@ -1,7 +1,22 @@
 - name: cli-plugin-edition
+  referenceId: 1EO1C093
   build:
     provider: dkcicd
     pipelines:
+      - name: node-ci-v2
+        parameters:
+          sonarProjectName: cli-plugin-edition
+          nodeVersion: 20-bookworm
+          nodeCommands:
+            - test -- --passWithNoTests --coverage
+        runtime:
+          architecture: amd64
+        when:
+          - event: pull_request
+            source: branch
+          - event: push
+            source: branch
+            regex: master
       - name: techdocs-v1
         parameters:
           entityReference: default/component/cli-plugin-edition
